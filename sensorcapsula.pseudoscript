@@ -1,0 +1,4 @@
+
+se(sensorcapsula>=1){
+        imprime("Depósito de capsulas cheio")
+    }
