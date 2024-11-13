@@ -1,0 +1,12 @@
+
+se(temperaturaresistencia<95){
+        imprime("Temperatura abaixo do recomendado, por favor aguarde enquanto a resistencia aquece ")
+        x=x+1
+    }
+    se(temperaturaresistencia>105){
+        imprime("Temperatura acima do recomendado, por favor desligar a máquina por 5 minutos")
+        x=x+1
+    }
+    se(x>=3){
+        imprime("Problemas com a resistencia da máquina, por favor trocar")
+    }
