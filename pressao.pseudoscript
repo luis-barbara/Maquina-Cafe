@@ -1,0 +1,4 @@
+
+se(pressao<90 ou pressao>110){
+        imprime("Troca de bomba de pressao necessaria")
+    }
